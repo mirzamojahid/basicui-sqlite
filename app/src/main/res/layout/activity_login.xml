@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/tourx"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </ImageView>
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:backgroundTint="@color/black"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:id="@+id/login_email"
+
+        android:hint="Enter Email"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:id="@+id/login_password"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+    <Button
+        android:id="@+id/login_signup"
+        android:text="Signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>

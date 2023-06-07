@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".EditTour">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Tour Event"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/edit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <EditText
+        android:backgroundTint="@color/black"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"
+        android:padding="10dp"
+        android:id="@+id/edit_title"
+        android:hint="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:inputType="number"
+        android:backgroundTint="@color/black"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"
+        android:padding="10dp"
+        android:id="@+id/edit_fee"
+        android:hint="Fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:backgroundTint="@color/black"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_marginBottom="8dp"
+        android:padding="10dp"
+        android:gravity="top"
+        android:minHeight="300dp"
+        android:id="@+id/edit_content"
+        android:hint="Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:text="Edit Tour"
+        android:id="@+id/editbtn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+
+
+
+</LinearLayout>

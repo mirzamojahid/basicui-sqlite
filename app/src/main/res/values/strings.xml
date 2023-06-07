@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TourX</string>
+
+    <string name="flight">Flights</string>
+    <string name="stay">Stays</string>
+    <string name="bus">Buses</string>
+    <string name="packages">Packages</string>
+    <string name="guide">Tour Guide</string>
+</resources>

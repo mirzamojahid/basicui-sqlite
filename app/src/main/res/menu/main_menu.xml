@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+       <item android:id="@+id/nav_home"
+           android:title="Home"
+           android:icon="@drawable/home">
+
+       </item>
+
+
+        <item android:id="@+id/nav_addtour"
+            android:title="Add Tour"
+            android:icon="@drawable/navtour">
+
+        </item>
+
+
+                <item android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/share">
+
+                </item>
+
+
+        <item android:id="@+id/nav_rate"
+            android:title="Rate the app"
+            android:icon="@drawable/rate">
+
+        </item>
+
+
+
+
+
+                <item android:id="@+id/nav_exit"
+                    android:title="Exit"
+                    android:icon="@drawable/exit">
+
+                </item>
+
+            </group>
+
+
+
+
+
+</menu>

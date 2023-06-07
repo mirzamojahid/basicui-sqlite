@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+
+    android:layout_height="wrap_content">
+
+
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="8dp"
+    android:layout_width="match_parent"
+    app:cardElevation="12dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@color/tourx_flight"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:id="@+id/event_imgs"
+            android:src="@drawable/sajek">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/event_id"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/event_title"
+            android:textColor="@color/black"
+            android:paddingLeft="4dp"
+            android:text="3 Days 2 Nights Sajek Valley"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingLeft="4dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/event_fee"
+            android:text="BDT 5500/ Person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</LinearLayout>

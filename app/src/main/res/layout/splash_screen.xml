@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:src="@drawable/tourx"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+    </ImageView>
+
+    <TextView
+        android:textFontWeight="@android:integer/config_shortAnimTime"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:id="@+id/textViewTourX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let Tour!" />
+
+</LinearLayout>
